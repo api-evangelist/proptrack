@@ -1,0 +1,18 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Contact: mailto:security-vulnerability@rea-group.com
+Expires: 2027-07-01T00:00:00.000Z
+Encryption: https://keybase.io/reagroupsecurity/pgp_keys.asc?fingerprint=6250f27bd9873cffe9ebd2b465970ddeaf178a3b
+Acknowledgments: https://www.rea-group.com/about-us/news-and-insights/blog/responsible-vulnerability-disclosure-program-hall-of-fame/
+Preferred-Languages: en
+Canonical: https://proptrack.com.au/.well-known/security.txt
+Policy: https://www.rea-group.com/security
+Hiring: https://www.rea-group.com/careers/jobs/
+-----BEGIN PGP SIGNATURE-----
+
+iHUEARYKAB0WIQRiUPJ72Yc8/+nr0rRllw3erxeKOwUCYlOAwgAKCRBllw3erxeK
+O8KtAQDuJ+bMrWMksKFEdrD+6VLUHcLtEw2rV2iq0JAOmJbupgEA3KYfYVBREvRz
+nInIAZCsLgO0mJ5meqM0s2c9aGKCkAM=
+=HDiA
+-----END PGP SIGNATURE-----

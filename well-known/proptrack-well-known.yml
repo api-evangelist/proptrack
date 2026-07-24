@@ -1,0 +1,24 @@
+generated: '2026-07-24'
+method: searched
+source: live probes of /.well-known/ on PropTrack hosts
+hosts:
+- host: https://www.proptrack.com.au
+  documents:
+  - path: /.well-known/security.txt          # RFC 9116 (PGP-signed, REA Group)
+    status: 200
+    file: proptrack-security.txt
+  - path: /.well-known/openid-configuration
+    status: 301
+  - path: /.well-known/api-catalog
+    status: 404
+- host: https://developer.proptrack.com.au
+  note: Stoplight-hosted developer portal (ingress.stoplight.io)
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404

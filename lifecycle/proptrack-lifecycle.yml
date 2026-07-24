@@ -1,0 +1,18 @@
+generated: '2026-07-24'
+method: searched
+source: https://developer.proptrack.com.au/docs/apis/home
+versioning:
+  scheme: unknown
+  note: >-
+    The PropTrack developer portal is organized as an API reference on Stoplight;
+    an explicit published versioning policy was not located anonymously.
+deprecation:
+  policy_url: null
+  sunset_header: null
+status_page: https://kmmfkblgkhnf.statuspage.io/
+status_page_note: >-
+  Atlassian Statuspage instance embedded in the PropTrack developer portal
+  (kmmfkblgkhnf.statuspage.io).
+sla:
+  url: null
+deprecated_operations: []

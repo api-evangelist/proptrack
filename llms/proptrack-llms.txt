@@ -1,0 +1,27 @@
+# PropTrack
+
+> PropTrack is an Australian property data, analytics, and automated valuation business (part of REA Group). It supplies residential property data, an AI-powered Automated Valuation Model (AVM), the PropTrack Home Price Index, and market insights drawn from over a trillion property data points across ~12 million Australian residential properties. Its developer program exposes REST APIs — address suggestion/matching, property and listing data, sold-transaction search (point-and-radius), automated valuations, and market metrics — documented on a Stoplight developer portal and secured with OAuth 2.0.
+
+## APIs
+
+- [PropTrack APIs (developer portal)](https://developer.proptrack.com.au/docs/apis/home): REST APIs for Australian property intelligence — address, property/listing data, sold-transaction search, AVM valuations, and market data. OAuth 2.0.
+- [Property Data APIs overview](https://www.proptrack.com.au/property-data/property-data-apis/): Product overview of PropTrack's data APIs and customisable widgets.
+
+## Docs
+
+- [Developer Documentation](https://developer.proptrack.com.au/docs/apis/home): Hosted Stoplight API reference and guides.
+- [Products](https://www.proptrack.com.au/products/): AVM, Property Reports, Home Price Index, Data & APIs, Portfolio Manager.
+- [Market Reports](https://www.proptrack.com.au/property-data/property-market-reports/): PropTrack market reporting.
+- [Insights Hub](https://www.proptrack.com.au/insights-hub/): Property market research and insights.
+
+## Operations & Trust
+
+- [Status Page](https://kmmfkblgkhnf.statuspage.io/): PropTrack developer platform status (Atlassian Statuspage).
+- [Security / Vulnerability Disclosure](https://www.rea-group.com/security): REA Group responsible vulnerability disclosure program.
+- [security.txt](https://www.proptrack.com.au/.well-known/security.txt): RFC 9116 contact (security-vulnerability@rea-group.com).
+
+## Company
+
+- [PropTrack](https://www.proptrack.com.au/): Company site.
+- [REA Group (parent)](https://www.rea-group.com/): Parent organization.
+- [Contact](https://www.proptrack.com.au/contact-us/): Sales and support contact.

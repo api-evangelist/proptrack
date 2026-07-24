@@ -1,23 +1,99 @@
 aid: proptrack
 name: PropTrack
-description: PropTrack is an Australian property data and automated valuation company (part of REA Group)
-  added to the API Evangelist network as a stub for full-pipeline profiling.
+description: >-
+  PropTrack is an Australian property data, analytics, and automated valuation
+  business, part of REA Group. It supplies residential property data, an
+  industry-leading AI-powered Automated Valuation Model (AVM), the PropTrack
+  Home Price Index, and market insights drawn from more than a trillion property
+  data points across some twelve million Australian residential properties.
+  Its raw data is sourced from public records (State/Territory land titles
+  offices, Valuers General, and Geoscape Australia) and proprietary sources
+  including the realestate.com.au listing portal. PropTrack exposes this through
+  a developer program of REST APIs — covering address suggestion and matching,
+  property and listing data, sold-transaction search (including point-and-radius
+  queries), automated valuations, and market metrics — documented on a hosted
+  Stoplight developer portal and secured with OAuth 2.0. The APIs are aimed at
+  banks, lenders, brokers, proptech platforms, and other enterprise customers
+  integrating Australian property intelligence.
+image: https://www.proptrack.com.au/wp-content/uploads/2021/10/proptrack_-_pos.png
 url: https://raw.githubusercontent.com/api-evangelist/proptrack/refs/heads/main/apis.yml
 x-type: company
 x-source: harvest:manual
-x-tier: stub
-x-tier-reason: harvest
+x-tier: profiled
+x-tier-reason: enrichment
 specificationVersion: '0.20'
 created: '2026-07-24'
 modified: '2026-07-24'
 tags:
 - Company
-apis: []
+- Property Data
+- Real Estate
+- Automated Valuation
+- Property Valuation
+- Australia
+- Market Data
+- Data & Analytics
+- PropTech
+apis:
+- name: PropTrack APIs
+  description: >-
+    REST APIs providing Australian property intelligence — address suggestion
+    and matching, property and listing data, sold-transaction search (including
+    point-and-radius queries), automated valuations (AVM), and market metrics
+    such as the Home Price Index. Documented on a hosted Stoplight developer
+    portal and secured with OAuth 2.0. Access is arranged with PropTrack (data
+    licensing / enterprise onboarding).
+  humanURL: https://developer.proptrack.com.au/docs/apis/home
+  baseURL: ''
+  tags:
+  - Property Data
+  - Valuation
+  - Market Data
+  properties:
+  - type: DeveloperPortal
+    url: https://developer.proptrack.com.au/docs/apis/home
+  - type: Documentation
+    url: https://developer.proptrack.com.au/docs/apis/home
+  - type: Authentication
+    url: authentication/proptrack-authentication.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-24'
+  status: enriched
+  artifacts_added: 7
+  pass: local-v1
 common:
+- type: DomainSecurity
+  url: security/proptrack-domain-security.yml
 - type: Website
   url: https://www.proptrack.com.au/
+- type: DeveloperPortal
+  url: https://developer.proptrack.com.au/docs/apis/home
+- type: Documentation
+  url: https://developer.proptrack.com.au/docs/apis/home
+- type: ProductOverview
+  url: https://www.proptrack.com.au/property-data/property-data-apis/
+- type: Support
+  url: https://www.proptrack.com.au/contact-us/
+- type: StatusPage
+  url: https://kmmfkblgkhnf.statuspage.io/
+- type: SecurityTxt
+  url: well-known/proptrack-security.txt
+- type: WellKnown
+  url: well-known/proptrack-well-known.yml
+- type: VulnerabilityDisclosure
+  url: security/proptrack-vulnerability-disclosure.yml
+- type: Security
+  url: https://www.rea-group.com/security
+- type: Authentication
+  url: authentication/proptrack-authentication.yml
+- type: Lifecycle
+  url: lifecycle/proptrack-lifecycle.yml
+- type: LLMsTxt
+  url: llms/proptrack-llms.txt
+- type: ParentOrganization
+  url: https://www.rea-group.com/

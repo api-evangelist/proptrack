@@ -1,0 +1,26 @@
+generated: '2026-07-24'
+method: searched
+source: https://developer.proptrack.com.au/docs/apis/home
+docs: https://developer.proptrack.com.au/docs/apis/home
+note: >-
+  PropTrack's developer portal (hosted on Stoplight) documents OAuth 2.0 as the
+  authentication mechanism for the PropTrack APIs. The machine-readable OpenAPI
+  and the concrete authorization/token URLs are rendered client-side inside the
+  Stoplight portal and are not anonymously retrievable, so the specific OAuth
+  flow and endpoint URLs are not recorded here to avoid fabrication. Access
+  credentials are issued to PropTrack customers as part of enterprise/data-
+  licensing onboarding.
+summary:
+  types:
+  - oauth2
+  oauth2_flows: []
+schemes:
+- name: OAuth2
+  type: oauth2
+  description: >-
+    OAuth 2.0 bearer-token authentication, per the PropTrack developer portal.
+    Flow (client_credentials is typical for this class of B2B data API) and the
+    authorization/token endpoints are documented within the authenticated
+    Stoplight portal; not captured verbatim here.
+  sources:
+  - https://developer.proptrack.com.au/docs/apis/home
