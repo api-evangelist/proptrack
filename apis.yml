@@ -15,6 +15,17 @@ description: >-
   Stoplight developer portal and secured with OAuth 2.0. The APIs are aimed at
   banks, lenders, brokers, proptech platforms, and other enterprise customers
   integrating Australian property intelligence.
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 image: https://www.proptrack.com.au/wp-content/uploads/2021/10/proptrack_-_pos.png
 url: https://raw.githubusercontent.com/api-evangelist/proptrack/refs/heads/main/apis.yml
 x-type: company
