@@ -51,7 +51,7 @@ modified: '2026-07-24'
 tags:
 - Company
 - Property Data
-- Real-Estate
+- Real Estate
 - Automated Valuation
 - Property Valuation
 - Australia
@@ -68,6 +68,7 @@ tags_raw:
 - Market Data
 - Data & Analytics
 - PropTech
+- Real-Estate
 apis:
 - name: PropTrack APIs
   description: >-
